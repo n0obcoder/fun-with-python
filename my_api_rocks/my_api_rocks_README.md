@@ -2,7 +2,7 @@
 
 This is a simple API that I have built using Flask in Python.
 
-<h2>Installing the required <strong>Flask</strong> library</h2>
+<h2>Installing the required Flask library</h2>
 
 ```
 pip install flask
