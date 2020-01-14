@@ -1,6 +1,6 @@
 <h1>qr_code_generator</h1>
 
-This is a simple QR code genarator which uses qrcode library in Python.
+This is a simple QR code genarator which uses <strong>qrcode</strong> library in Python.
 
 <h2>Installing the required qrcode library</h2>
 
