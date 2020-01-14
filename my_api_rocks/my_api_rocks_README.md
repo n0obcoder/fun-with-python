@@ -1,6 +1,6 @@
 <h1>my_api_rocks</h1>
 
-This is a simple API that I have built using Flask in Python.
+This is a simple API that I have built using <strong>Flask</strong> in Python.
 
 <h2>Installing the required Flask library</h2>
 
