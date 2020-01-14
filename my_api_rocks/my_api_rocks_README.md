@@ -2,6 +2,12 @@
 
 This is a simple API that I have built using Flask in Python.
 
+<h2>Installing the required <strong>Flask</strong> library</h2>
+
+```
+pip install flask
+```
+
 <h2>Runnning the API</h2>
 
 ```
