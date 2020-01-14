@@ -15,3 +15,5 @@ python qr_code_generator.py
 ```
 
 This creates a QR code, encoding the data present in the variable called <strong>data</strong> in qr_code_generator.py  
+
+<img src='qr_fun.png' width='650' alt= 'visualizing_convnet_features' hspace='35'>
