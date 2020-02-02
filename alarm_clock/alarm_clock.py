@@ -21,21 +21,26 @@ alarm_time['secs'] = int(input('how many seconds ?\n'))
 print('Tha alarm will go off in {} hrs {} mins {} secs\n'.format(alarm_time['hrs'], alarm_time['mins'], alarm_time['secs']))
 
 # Number of time you want the alarm to repeat
-n_rings = 2
+n_rings = 25
 
 # start time
 tick = time.time()
 
 rang = False
 
+alarm_secs = alarm_time['hrs']*3600 + alarm_time['mins']*60 + alarm_time['secs']
+
 while not rang:
     total_time = time.time() - tick
-    m, s = divmod(total_time, 60)
+    time_diff = alarm_secs - total_time
+    # print(time_diff)
+    m, s = divmod(time_diff, 60)
     h, m = divmod(m, 60)
 
-    print('alarm going off in {} : {} : {}'.format(int(alarm_time['hrs']) - h, int(alarm_time['mins']) - m, int(alarm_time['secs']) - s))     
+    print(h, m, s)
+    # print('alarm going off in {} : {} : {}'.format(int(alarm_time['hrs']) - h, int(alarm_time['mins']) - m, int(alarm_time['secs']) - s))     
 
-    if h == alarm_time['hrs'] and m == alarm_time['mins'] and int(s) == alarm_time['secs']:
+    if int(h) == 0 and int(m) == 0 and int(s) == 0:
         print('\nALARM RINGING !')
         for i in range(n_rings):
             playsound(audio_path)
