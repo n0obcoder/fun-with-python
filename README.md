@@ -1,15 +1,14 @@
-# fun-with-python
-This repository is a collection of fun little things that can be done in python.
+# MOOD_TAG Classification of Songs
 
+## Training
+Training script can be easily run by using the train.py file and passing in the  training.csv file in the command-line llke the way it is shown below.
+```
+python train.py training.csv
+```
 
-* [alarm_clock](https://github.com/n0obcoder/fun-with-python/tree/master/alarm_clock)
-  
-  This is a simple Alarm Clock that I have built using <strong>playsound</strong> library in Python which goes off after a given period of time.
-
-* [my_api_rocks](https://github.com/n0obcoder/fun-with-python/tree/master/my_api_rocks)
-
-  This is a simple API that I have built using <strong>Flask</strong> library in Python.
-  
-* [qr_code_generator](https://github.com/n0obcoder/fun-with-python/tree/master/qr_code_generator)
-  
-  This is a simple QR code genarator which uses <strong>qrcode</strong> library in Python to encode any given string in a QR Code.
+## Testing
+Testing script can be run by using the eval.py file and passing in the evaluation.py file and the model path (lgbm.pkl by default) in the command-line.
+```
+python eval.py evaluation.csv lgbm.pkl
+```
+Once this script is run succcessfully, it will automatically generate evaluation_classified.csv woth a 'MOOD_TAG' columns containing all the predictions in it.
