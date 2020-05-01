@@ -6,7 +6,7 @@ This repository is a collection of fun little things that can be done in python.
   
   This is a simple Alarm Clock that I have built using <strong>playsound</strong> library in Python which goes off after a given period of time.
   
-* [alarm_clock](https://github.com/n0obcoder/fun-with-python/tree/master/live_plots)
+* [live_plots](https://github.com/n0obcoder/fun-with-python/tree/master/live_plots)
   
 This is a simple python script that generates live plots by using <strong>matplotlib</strong> in Python.
 
