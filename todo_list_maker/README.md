@@ -37,3 +37,6 @@ Listing (printing) down all the to-do list items of the to-do list on the comman
 ```
 python todo_list_maker.py -l
 ```
+
+<h2>How to use todo_list_maker as an Alias in command-line</h2>
+Medium Blog - https://medium.com/p/5e3208b8c6b1/edit
