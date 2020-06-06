@@ -1,6 +1,6 @@
 <h1>todo_list_maker</h1>
 
-This is a simple todo_list_maker application that I have built in Python.
+This is a simple todo_list_maker application that I have built in Python, which can also be called from the command-line by making an alias for it.
 
 <h2>Adding a to-do list item ("--do" argument)</h2>
 Running the todo_list_maker to add a new todo list item to the default todo list(.txt file) at the default location (Desktop)
