@@ -18,6 +18,10 @@ This repository is a collection of fun little things that can be done in python.
   
   This is a simple QR code genarator which uses <strong>qrcode</strong> library in Python to encode any given string in a QR Code.
 
+* [simple_docker_compose](https://github.com/n0obcoder/fun-with-python/tree/master/simple_docker_compose)
+  
+  This is a very simple example of how <strong>docker-compose</strong> can be used with <strong>docker</strong> to run different services automatically.
+  
 * [todo_list_maker](https://github.com/n0obcoder/fun-with-python/tree/master/todo_list_maker)
   
   This is a simple todo_list_maker application that I have built in Python, which can also be called from the command-line by making an alias for it.
