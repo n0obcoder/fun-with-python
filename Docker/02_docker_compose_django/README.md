@@ -21,7 +21,7 @@ This is a very simple example of how <strong>docker-compose</strong> can be used
 
 * Build the docker image first
   ```
-  docker-compose up
+  docker-compose build
   ```
 
 * Make a Django project 
