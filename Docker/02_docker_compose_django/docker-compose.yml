@@ -1,0 +1,19 @@
+version: '3'
+
+services: 
+  # name of the service
+  django_webapp:
+    
+    # location of the Dockerfile
+    build: .
+  
+    # command to be run when we call 'docker-compose up', after the build of the image 
+    command: python my_webapp/manage.py runserver 0.0.0.0:7575
+
+    # expose the ports (local_machine:docker_container)
+    ports:
+      - 7575:7575
+
+    # volumes to mount
+    volumes: 
+      - ./:/usr/src/django_app
