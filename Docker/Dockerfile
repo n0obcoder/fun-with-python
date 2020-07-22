@@ -41,6 +41,8 @@ RUN apt-get -y install python3.8
 # Install pip3
 RUN apt-get -y install python3-pip
 
+# Install Git
+RUN apt-get -y install git
 ###
 
 # COPY adds files from your Docker client’s current directory.
@@ -51,6 +53,9 @@ WORKDIR /app
 
 # Install python packages using pip3
 RUN pip3 install -r requirements.txt
+
+# Git Clone a repo
+RUN git clone https://github.com/n0obcoder/dukaan.git
 
 # Run a python script to print something out in the terminal
 #CMD python3 /app/this.py
