@@ -1,6 +1,6 @@
-## Simple docker-compose
+## 02_docker_compose_django
  
-This is a very simple example of how <strong>docker-compose</strong> can be used with <strong>docker</strong> to run different services automatically.
+This is a very simple example of how <strong>docker-compose</strong> can be used with <strong>docker</strong> to run a  <strong>django application</strong> (a service) automatically.
  
 ### Requirements
 * docker         (apt-get install docker)   
@@ -9,11 +9,11 @@ This is a very simple example of how <strong>docker-compose</strong> can be used
 ### Dockerfile
 File containing the information about the docker image to be built
  
-### hellp.py
-A python script that would be run automatically (using docker-compose command) after the docker image is built
+### requirements.txt
+A text file containing the list of all the pythi packages to be installed in the docker container
  
 ### docker-compose.yml
-This uses the Dockefile and hello.py to first, build the docker image and then run the python script 
+This uses the Dockefile to build the docker image and run the django application in th container 
 
 ### How To Run
 
