@@ -3,7 +3,7 @@ This repository is a collection of fun little things that can be done in python.
 
 * [Docker](https://github.com/n0obcoder/fun-with-python/tree/master/Docker)
   
-  This is a very simple example of how <strong>docker-compose</strong> can be used with <strong>docker</strong> to run different services automatically.
+  This is a collection of <strong>docker</strong> and <strong>docker-compose</strong> functionalities
   
 * [alarm_clock](https://github.com/n0obcoder/fun-with-python/tree/master/alarm_clock)
   
