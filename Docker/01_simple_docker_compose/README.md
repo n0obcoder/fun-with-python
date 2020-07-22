@@ -19,7 +19,7 @@ This uses the Dockefile and hello.py to first, build the docker image and then r
 
 * Build the docker image first
   ```
-  docker-compose up
+  docker-compose build
   ```
 
 * Start the service
