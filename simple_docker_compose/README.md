@@ -1,6 +1,6 @@
 ## Simple docker-compose
  
-This is a very simple example of how <strong>docker-compose</strong> can be used with <strong>docker</strong> to run different services.
+This is a very simple example of how <strong>docker-compose</strong> can be used with <strong>docker</strong> to run different services automatically.
  
 ### Requirements
 * docker         (apt-get install docker)   
