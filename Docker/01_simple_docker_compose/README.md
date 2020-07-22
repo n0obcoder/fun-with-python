@@ -9,7 +9,7 @@ This is a very simple example of how <strong>docker-compose</strong> can be used
 ### Dockerfile
 File containing the information about the docker image to be built
  
-### hellp.py
+### hello.py
 A python script that would be run automatically (using docker-compose command) after the docker image is built
  
 ### docker-compose.yml
