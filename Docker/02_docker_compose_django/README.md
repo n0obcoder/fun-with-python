@@ -26,7 +26,7 @@ This is a very simple example of how <strong>docker-compose</strong> can be used
 
 * Make a Django project 
   ```
-  docker-ccompose run <service_name> <bash commmand>
+  docker-compose run <service_name> <bash commmand>
   ```
   or
   ```
