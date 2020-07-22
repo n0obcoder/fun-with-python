@@ -6,14 +6,16 @@ This is a very simple example of how <strong>docker-compose</strong> can be used
 * docker         (apt-get install docker)   
 * docker-compose (apt-get install docker-compose)
 
-### Dockerfile
-File containing the information about the docker image to be built
+### Files and their Functionns
+
+* ### Dockerfile
+  File containing the information about the docker image to be built
  
-### requirements.txt
-A text file containing the list of all the pythi packages to be installed in the docker container
+* ### requirements.txt
+  A text file containing the list of all the pythi packages to be installed in the docker container
  
-### docker-compose.yml
-This uses the Dockefile to build the docker image and run the django application in th container 
+* ### docker-compose.yml
+  This uses the Dockefile to build the docker image and run the django application in th container 
 
 ### How To Run
 
@@ -40,4 +42,6 @@ This uses the Dockefile to build the docker image and run the django application
   docker-compose up
   ```
 
+* Go to http://localhost:7575/ and see the Django web app in action !
+<hr>
 <strong>NOTE:</strong> If you make some changes in the Dockerfile then to bring the changes into effect, you must re-build the docker image. This can be done by using the command for building the  image and then starting the service up.  
