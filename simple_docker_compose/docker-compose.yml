@@ -1,6 +1,11 @@
 version: '3'
 
 services: 
+  # name of the service
   mypython:
+    
+    # location of the Dockerfile
     build: ./
+
+    # command to be run after the build of the image 
     command: python3 hello.py
