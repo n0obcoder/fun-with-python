@@ -32,4 +32,4 @@ This uses the Dockefile and hello.py to first, build the docker image and then r
   docker-compose up --build
   ```
 
-<strong>NOTE:</strong> If you make some changes in the Dockerfile then to bring the changes into effect, you must re-build the docker image. This can either be done by using the command for building the  image and then starting the service or by simply using the <b>'up'</b> command along with the <b>--build</b> flag.  
+<strong>NOTE:</strong> If you make some changes in the Dockerfile then to bring the changes into effect, you must re-build the docker image. This can either be done by using the command for building the  image and then starting the service or by simply using the <b>up</b> command along with the <b>--build</b> flag.  
